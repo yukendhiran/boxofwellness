@@ -3,7 +3,9 @@
 
 	import { PrismicLink } from '@prismicio/svelte';
 	/** @type {import("@prismicio/client").Content.NavbarDocument} */
-	import WordMark from './WordMark.svelte';
+	import PhInstagramLogo from '~icons/ph/instagram-logo';
+	import PhFacebookLogo from '~icons/ph/facebook-logo';
+	import PhWhatsappLogo from '~icons/ph/whatsapp-logo';
 </script>
 
 <footer
@@ -21,5 +23,17 @@
 		<a href="tel:+916374759268">+91 6374759268</a> <br />
 		<a href="mailto:boxofwellness.diet@gmail.com">boxofwellness.diet@gmail.com</a> <br />
 	</span>
-	<span class="text-center md:text-left">Opening Hours: Monday - Saturday, 06AM - 10PM</span>
+	<span class="text-center md:text-left"
+		>Opening Hours: Monday - Saturday, 06AM - 10PM
+		<br /><br />
+		<div class="flex gap-2">
+			<a href="https://www.instagram.com/box_of_wellness?igsh=MWp2b24yOGNxYmtyNQ=="
+				><PhInstagramLogo class="h-8 w-8" /></a
+			>
+			<a href="https://www.facebook.com/profile.php?id=61556594750626&mibextid=JRoKGi"
+				><PhFacebookLogo class="h-8 w-8" /></a
+			>
+			<a href="https://wa.me/916374759268"><PhWhatsappLogo class="h-8 w-8" /> </a>
+		</div>
+	</span>
 </footer>
