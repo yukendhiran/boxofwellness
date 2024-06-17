@@ -1,0 +1,53 @@
+{
+	"format": "custom",
+	"id": "foodproducts",
+	"label": "FoodProducts",
+	"repeatable": true,
+	"status": true,
+	"json": {
+		"Main": {
+			"uid": {
+				"config": {
+					"label": "UID"
+				},
+				"type": "UID"
+			},
+			"image": {
+				"type": "Image",
+				"config": {
+					"label": "Image",
+					"constraint": {},
+					"thumbnails": []
+				}
+			},
+			"name": {
+				"type": "Text",
+				"config": {
+					"label": "Name",
+					"placeholder": ""
+				}
+			},
+			"description": {
+				"type": "Text",
+				"config": {
+					"label": "Description",
+					"placeholder": ""
+				}
+			},
+			"price": {
+				"type": "Number",
+				"config": {
+					"label": "Price",
+					"placeholder": ""
+				}
+			},
+			"category": {
+				"type": "Text",
+				"config": {
+					"label": "Category",
+					"placeholder": ""
+				}
+			}
+		}
+	}
+}
