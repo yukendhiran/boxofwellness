@@ -23,6 +23,12 @@
 			</p>
 		{/if}
 
+		{#if slice.primary.buttonlink}
+			<ButtonLink class="mt-8" field={slice.primary.buttonlink}
+				>{slice.primary.buttonlabel}</ButtonLink
+			>
+		{/if}
+
 		{#if slice.primary.heroimage}
 			<div class="glass-container opacity-1 mt-16 w-fit">
 				<div
@@ -34,12 +40,6 @@
 
 				<PrismicImage class="rounded-lg" field={slice.primary.heroimage} />
 			</div>
-		{/if}
-
-		{#if slice.primary.buttonlink}
-			<ButtonLink class="mt-8" field={slice.primary.buttonlink}
-				>{slice.primary.buttonlabel}</ButtonLink
-			>
 		{/if}
 	</div>
 </Bounded>

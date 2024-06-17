@@ -60,4 +60,12 @@
 			{/each}
 		</a>
 	</main>
+
+	<div class="flex w-full flex-col items-center justify-center">
+		<h1 class="p-2 text-center text-4xl md:text-9xl">Just Order!!!</h1>
+		<a
+			class="relative mt-10 inline-flex h-fit w-fit justify-center rounded-full border border-green-100/20 bg-green-200/10 px-4 py-2 text-green-200 outline-none ring-green-300 transition-colors after:absolute after:inset-0 after:-z-10 after:animate-pulse after:rounded-full after:bg-green-100 after:bg-opacity-0 after:blur-md after:transition-all after:duration-500 hover:border-green-200/40 hover:text-green-300 after:hover:bg-opacity-15 focus:ring-2"
+			href="http://wa.me/6374759268">Order Now!</a
+		>
+	</div>
 </section>

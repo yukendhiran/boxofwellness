@@ -45,7 +45,11 @@
 						<PrismicImage field={foods.data.image} class="mb-4 w-fit rounded-md" />
 						<h3 class="mb-2 text-xl font-semibold">{foods.data.name}</h3>
 						<p class="mb-4 text-sm">{foods.data.description}</p>
-						<p class="rounded-lg bg-green-400/50 text-center">Price: &#8377; {foods.data.price}</p>
+						<a href="http://wa.me/6374759268">
+							<p class="rounded-lg bg-green-400/50 text-center">
+								Price: &#8377; {foods.data.price}
+							</p>
+						</a>
 					</div>
 				</section>
 			{/if}
